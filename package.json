@@ -1,0 +1,11 @@
+{
+  "name": "lepage-stone",
+  "version": "1.0.0",
+  "description": "Site web Lepage Stone ",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "Start"
+  },
+  "author": "Joris",
+  "license": "ISC"
+}
