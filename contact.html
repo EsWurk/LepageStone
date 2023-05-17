@@ -16,39 +16,24 @@
         <!-- Mobile menu button-->
         <button type="button" class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
           <span class="sr-only">Menu</span>
-          <!--
-            Icon when menu is closed.
-
-            Menu open: "hidden", Menu closed: "block"
-          -->
-          <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-          <!--
-            Icon when menu is open.
-
-            Menu open: "block", Menu closed: "hidden"
-          -->
-          <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-          </svg>
+          
         </button>
       </div>
-      <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+      <div class="mx-auto flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex flex-shrink-0 items-center">
           <img class="block h-8 w-auto lg:hidden" src="./public/logo.png" alt="Your Company">
           <img class="hidden h-8 w-auto lg:block" src="./public/logo.png" alt="Your Company">
         </div>
-        <div class="hidden sm:ml-6 sm:block">
-          <div class="flex space-x-4">
+        <div class="mx-auto hidden sm:ml-6 sm:block">
+          <div class="mx-auto space-x-4">
             <!-- Current: "bg-[#d9507e] text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <a href="./index.html" class="text-gray-300 hover:bg-[#d9507e] opacity-70 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Acceuil</a>
-            <a href="./materiaux.html" class="text-gray-300 hover:bg-[#d9507e] opacity-70 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Matériaux</a>
-            <a href="./deroulement.html" class="text-gray-300 hover:bg-[#d9507e] opacity-70 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Déroulement</a>
-            <a href="./realisation.html" class="text-gray-300 hover:bg-[#d9507e] opacity-70 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Réalisations</a>
-            <a href="./entreprise.html" class="text-gray-300 hover:bg-[#d9507e] opacity-70 hover:text-white rounded-md px-3 py-2 text-sm font-medium">L'entreprise</a>
+            <a href="./index.html" class="text-gray-400 hover:bg-[#d9507e] opacity-70 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Acceuil</a>
+            <a href="./materiaux.html" class="text-gray-400 hover:bg-[#d9507e] opacity-70 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Matériaux</a>
+            <a href="./deroulement.html" class="text-gray-400 hover:bg-[#d9507e] opacity-70 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Déroulement</a>
+            <a href="./realisation.html" class="text-gray-400 hover:bg-[#d9507e] opacity-70 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Réalisations</a>
+            <a href="./entreprise.html" class="text-gray-400 hover:bg-[#d9507e] opacity-70 hover:text-white rounded-md px-3 py-2 text-sm font-medium">L'entreprise</a>
             <a href="./contact.html" class="bg-[#d9507e] text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Contact</a>
-            <a href="./boutique.html" class="text-gray-300 hover:bg-[#d9507e] opacity-70 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Boutique</a>
+            <a href="./boutique.html" class="text-gray-400 hover:bg-[#d9507e] opacity-70 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Boutique</a>
           </div>
         </div>
       </div>
@@ -59,13 +44,13 @@
   <div class="sm:hidden" id="mobile-menu">
     <div class="space-y-1 px-2 pb-3 pt-2">
       <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Acceuil</a>
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Matériaux</a>
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Déroulement</a>
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Réalisations</a>
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">L'entreprise</a>
-      <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Contact</a>
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Boutique</a>
+      <a href="./index.html" class="text-gray-300 hover:bg-[#d9507e] opacity-70 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Acceuil</a>
+      <a href="./materiaux.html" class="text-gray-300 hover:bg-[#d9507e] opacity-70 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Matériaux</a>
+      <a href="./deroulement.html" class="text-gray-300 hover:bg-[#d9507e] opacity-70 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Déroulement</a>
+      <a href="./realisation.html" class="text-gray-300 hover:bg-[#d9507e] opacity-70 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Réalisations</a>
+      <a href="./entreprise.html" class="text-gray-300 hover:bg-[#d9507e] opacity-70 hover:text-white block rounded-md px-3 py-2 text-base font-medium">L'entreprise</a>
+      <a href="./contact.html" class="bg-[#d9507e] text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Contact</a>
+      <a href="./boutique.html" class="text-gray-300 hover:bg-[#d9507e] opacity-70 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Boutique</a>
     </div>
   </div>
 </nav>
