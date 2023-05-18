@@ -973,4 +973,9 @@ video {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+  #text-banniere{
+    color: #d9507e;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 }
