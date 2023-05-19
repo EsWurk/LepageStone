@@ -8,9 +8,21 @@
     <title>Lepage-Stone</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./CSS/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
   </head>
   <body>
-    <div class="bg-gray-100 flex flex-col items-center justify-center h-screen text-[#d9507e] mx-auto">
+    <div class="grid grid-cols-3 bg-gray-100 flex flex-col items-center justify-center h-screen text-[#d9507e] mx-auto">
       <span id="text-banniere" class="hidden lg:block text-[#d9507e] text-lg font-bold text-center">Votre spécialiste Grand-est</span>
       <div class="flex items-center justify-center mt-4">
         <img class="h-auto w-auto mx-auto" src="./public/logo.png" alt="Logo">
@@ -67,7 +79,6 @@
                     mobileMenu.classList.toggle('hidden');
                   });
                 });
-              </script>              
-
+              </script>
   </body>
 </html>
