@@ -15,7 +15,7 @@
     <div class="flex flex-auto bg-gray-100 text-[#d9507e] mx-auto items-center justify-center">
       <span id="text-banniere" class="hidden lg:flex text-[#d9507e] text-lg font-bold text-center self-center">Votre spécialiste Grand-est</span>
       <div class="flex items-center justify-center">
-        <img class="h-auto w-auto items-center" src="./public/logo.png" alt="Logo">
+        <img class="h-auto max-w-full sm:max-w-xs md:max-w-sm lg:max-w-md" src="./public/logo.png" alt="Logo">
         <span id="text-banniere" class="hidden lg:flex text-[#d9507e] text-lg font-bold text-center self-center">en plan de travail de cuisine</span>
       </div>
     </div>
@@ -64,18 +64,18 @@
                 </div>
               </div>
       </nav>
-    <div>
-      <div id="accueil" class="section bg-gray-100 min-h-screen">
-        <div class="slideshow-container relative">
-          <div class="absolute inset-0 flex items-center justify-center bg-gray-100 bg-opacity-40 z-10">
-            <h2 class="text-[#3F4447] text-lg font-extrabold text-center underline decoration-[#d9507e] sm:text-sm md:text-base lg:text-lg xl:text-xl">Lepage Stone votre spécialiste en plan de travail de cuisine dans le Grand-Est</h2>
+      <div>
+        <div id="accueil" class="section bg-gray-100 min-h-auto mb-20">
+          <h2 class="text-[#3F4447] text-lg font-extrabold text-center underline decoration-[#d9507e] sm:text-sm md:text-base lg:text-lg xl:text-xl">Lepage Stone votre spécialiste en plan de travail de cuisine dans le Grand-Est</h2>
+          <div class="slideshow-container relative">
+            <div class="absolute inset-0 flex items-center justify-center bg-opacity-100 z-10">
+            </div>
+            <img class="slide rounded-2xl mx-auto flex-auto hidden w-3/5 opacity-80" src="public/Dekton-Kelya-1200.jpg" alt="Dekton-Kelya-1200">
+            <img class="slide rounded-2xl mx-auto flex-auto hidden w-3/5 opacity-80" src="public/Noir-fin-sat-1200.jpg" alt="Noir-fin-sat-1200">
+            <img class="slide rounded-2xl mx-auto flex-auto hidden w-3/5 opacity-80" src="public/Noir-Virginia-Satine-1200.jpg" alt="Noir-Virginia-Satine-1200">
+            <img class="slide rounded-2xl mx-auto flex-auto hidden w-3/5 opacity-80" src="public/Aura-1200.jpg" alt="Aura-1200">
           </div>
-          <img class="slide rounded-2xl mx-auto flex-auto hidden w-2/3 opacity-80" src="public/Dekton-Kelya-1200.jpg" alt="Dekton-Kelya-1200">
-          <img class="slide rounded-2xl mx-auto flex-auto hidden w-2/3 opacity-80" src="public/Noir-fin-sat-1200.jpg" alt="Noir-fin-sat-1200">
-          <img class="slide rounded-2xl mx-auto flex-auto hidden w-2/3 opacity-80" src="public/Noir-Virginia-Satine-1200.jpg" alt="Noir-Virginia-Satine-1200">
-          <img class="slide rounded-2xl mx-auto flex-auto hidden w-2/3 opacity-80" src="public/Aura-1200.jpg" alt="Aura-1200">
-    </div>
-  </div>   
+        </div>
       <script>
         document.addEventListener("DOMContentLoaded", function() {
           var slides = document.getElementsByClassName("slide");
@@ -101,16 +101,18 @@
       </script>
       
   </div>
-        <div class="fixed inset-x-0 bottom-0">
-          <div class="bg-[#d9507e] px-4 py-3 text-white">
-            <p class="text-center text-sm font-medium">
-              2 ter rue Denis Papin • 54300 CHANTEHEUX (à côté de Lunéville) • info@lepage-stone.fr • Tél : 03 83 74 07 17
-              <a href="#" class="inline-block underline">
-                  <!--rajouter les mentions-->
-              </a>
-            </p>
-          </div>
-        </div>
+  <div class="fixed inset-x-0 bottom-0 opacity-100 mt-44 hidden sm:block">
+    <div class="bg-[#d9507e] px-4 py-3 text-white">
+      <p class="text-center text-sm font-medium">
+        2 ter rue Denis Papin • 54300 CHANTEHEUX (à côté de Lunéville) • info@lepage-stone.fr • Tél : 03 83 74 07 17
+        <a href="#" class="inline-block underline">
+          <!--rajouter les mentions-->
+        </a>
+      </p>
+    </div>
+  </div>
+  
+  
               <script>
                 document.addEventListener('DOMContentLoaded', function() {
                   const mobileMenuButton = document.getElementById('mobile-menu-button');
