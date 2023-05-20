@@ -9,27 +9,21 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./CSS/output.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              clifford: '#da373d',
-            }
-          }
-        }
-      }
-    </script>
   </head>
   <body>
-    <div class="bg-gray-100 flex flex-col items-center justify-center h-screen text-[#d9507e] mx-auto">
-      <span id="text-banniere" class="hidden lg:block text-[#d9507e] text-lg font-bold text-center">Votre spécialiste Grand-est</span>
-      <div class="flex items-center justify-center mt-4">
-        <img class="h-auto w-auto mx-auto" src="./public/logo.png" alt="Logo">
+    <!-- banniere -->
+    <div class="flex flex-auto bg-gray-100 text-[#d9507e] mx-auto items-center justify-center">
+      <span id="text-banniere" class="hidden lg:flex text-[#d9507e] text-lg font-bold text-center self-center">Votre spécialiste Grand-est</span>
+      <div class="flex items-center justify-center">
+        <img class="h-auto w-auto items-center" src="./public/logo.png" alt="Logo">
+        <span id="text-banniere" class="hidden lg:flex text-[#d9507e] text-lg font-bold text-center self-center">en plan de travail de cuisine</span>
       </div>
-      <span id="text-banniere" class="hidden lg:block text-[#d9507e] text-lg font-bold text-center">en plan de travail de cuisine</span>
     </div>
-    <nav class="bg-gray-100 flex flex-col items-center justify-center h-screen text-[#d9507e]">
+    
+    
+    
+    <!--Navigateur-->
+    <nav class="bg-gray-100 flex flex-col items-center justify-center text-[#d9507e]">
     <div class="max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
         <div class="mx-auto flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
@@ -47,17 +41,17 @@
               <a href="./boutique.html" class="bg-[#d9507e] text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Boutique</a>
               </div>
               </div>
-              <!-- Hamburger menu icon for small screens -->
-              <div class="sm:hidden absolute top-0 right-0 mt-4 mr-4">
-                <button id="mobile-menu-button" class="text-gray-400 hover:text-[#d9507e] focus:outline-none focus:text-[#d9507e]">
-                  <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <!-- Hamburger menu-->
+              <div class="sm:hidden absolute top-0 right-0 mt-1 mr-1 mx-auto">
+                <button id="mobile-menu-button" class="text-gray-500 hover:text-[#d9507e] focus:outline-none focus:text-[#d9507e]">
+                  <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                   </svg>
                 </button>
               </div>
               </div>
               </div>
-              <!-- Mobile menu, show/hide based on menu state -->
+              <!-- Mobile menu-->
               <div class="sm:hidden hidden" id="mobile-menu">
                 <div class="px-2 pt-2 pb-3 space-y-1">
                   <a href="./index.html" class="text-gray-300 hover:bg-[#d9507e] opacity-70 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Acceuil</a>
@@ -69,7 +63,7 @@
                   <a href="./boutique.html" class="bg-[#d9507e] text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Boutique</a>
                 </div>
               </div>
-              </nav>
+      </nav>
               <script>
                 document.addEventListener('DOMContentLoaded', function() {
                   const mobileMenuButton = document.getElementById('mobile-menu-button');
@@ -79,7 +73,6 @@
                     mobileMenu.classList.toggle('hidden');
                   });
                 });
-              </script>              
-
+              </script>
   </body>
 </html>
